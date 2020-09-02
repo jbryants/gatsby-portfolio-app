@@ -28,7 +28,18 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const {
+              title,
+              info,
+              infoLine2,
+              infoLine3,
+              info2,
+              url,
+              videoUrl,
+              repo,
+              img,
+              id,
+            } = project;
 
             return (
               <Row key={id}>
@@ -46,18 +57,35 @@ const Projects = () => {
                         <p>
                           {info ||
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                          <br /> {infoLine2 || ''}
+                          <br /> {infoLine3 || ''}
                         </p>
-                        <p className="mb-4">{info2 || ''}</p>
+                        <p className="mb-4">
+                          <span className="font-weight-bold">Tech stack: </span>
+                          <br />
+                          {info2 || ''}
+                        </p>
                       </div>
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
-                      >
-                        See Live
-                      </a>
-
+                      {url !== '' && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--hero"
+                          href={url || '#!'}
+                        >
+                          See Live
+                        </a>
+                      )}
+                      {videoUrl !== '' && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--hero"
+                          href={videoUrl || '#!'}
+                        >
+                          See Video
+                        </a>
+                      )}
                       {repo && (
                         <a
                           target="_blank"
@@ -66,6 +94,16 @@ const Projects = () => {
                           href={repo}
                         >
                           Source Code
+                        </a>
+                      )}
+                      {!url && !repo && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn text-color-main"
+                          //href="#"
+                        >
+                          Work in progress
                         </a>
                       )}
                     </div>
