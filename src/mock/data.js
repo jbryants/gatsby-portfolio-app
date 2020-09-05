@@ -18,11 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne:
-    'Software engineer who loves to build products, solve problems and add business value.',
-  paragraphTwo: `Experienced in building complex front end single page applications using React and robust backend systems using RESTful APIs with 
-  different languages and frameworks such as Django, Nodejs & Spring alongside database technologies such as MySQL, PostgreSQL, SQLite & MongoDB.`,
-  paragraphThree: 'Looking for job opportunities, I can work on any given popular tech stack.',
+  paragraphOne: `Software engineer who loves to build products, solve problems and add business value
+     by writing applications that are useful to people.`,
+  paragraphTwo: `Built complex front end single page applications using React and robust backend systems using RESTful APIs with 
+  different languages and frameworks such as Django, Nodejs & Spring alongside database technologies such as MySQL, PostgreSQL, SQLite & MongoDB.
+  Strong engineering professional with a Bachelor of Engineering focused in CSE from St. Francis Institute Of Technology, Mumbai University.`,
+  paragraphThree: 'Looking for work opportunities, I can work on any given popular tech stack.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -37,7 +38,7 @@ export const projectsData = [
     infoLine2: '',
     infoLine3: '',
     info2:
-      'React | Redux | React Router | Material-UI | Redux Form | Lodash | Axios | Django | PostgreSQL',
+      'React | Redux | React Router | Material-UI | Redux Form | Lodash | Axios | Django | Django REST framework | PostgreSQL',
     url: '',
     videoUrl: '',
     repo: '', // if no repo, the button will not show up
@@ -127,7 +128,8 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'jbryants19d@gmail.com',
+  url: 'https://www.linkedin.com/in/bryan-thomas',
 };
 
 // FOOTER DATA
@@ -146,12 +148,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/jbryants',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/bryan-thomas',
     },
   ],
 };
