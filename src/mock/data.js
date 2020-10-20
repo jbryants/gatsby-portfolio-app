@@ -20,21 +20,21 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: `Software engineer who loves to build products, solve problems and add business value
      by writing applications that are useful to people.`,
-  paragraphTwo: `Built complex front end single page applications using React and robust backend systems using RESTful APIs with 
-  different languages and frameworks such as Django, Nodejs & Spring alongside database technologies such as MySQL, PostgreSQL, SQLite & MongoDB.
+  paragraphTwo: `Built front end single page applications using React and back end for it using RESTful APIs with 
+  frameworks such as Django, Nodejs & Spring Boot alongside database technologies such as MySQL, PostgreSQL, SQLite & MongoDB.
   Strong engineering professional with a Bachelor of Engineering focused in CSE from St. Francis Institute Of Technology, Mumbai University.`,
   paragraphThree: 'Looking for work opportunities, I can work on any given popular tech stack.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1Trp7nVWaC5cit6Wt6hsUHJu5ahowalcd/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Purchase Tracker',
+    img: 'VeggieTracker.png',
+    title: 'Veggie Tracker',
     info:
-      'A purchase tracker application where users can create their vegetables and fruits grocery list and smartly & efficiently keep track of their expenses being incurred while purchasing them.',
+      'VeggieTracker is a platform where users can manage their vegetable shopping lists and keep track of the vegetables prices present in the list.',
     infoLine2: '',
     infoLine3: '',
     info2:
