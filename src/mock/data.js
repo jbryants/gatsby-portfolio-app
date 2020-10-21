@@ -32,9 +32,9 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'VeggieTracker.png',
-    title: 'Veggie Tracker',
+    title: 'Vegetable Expense Tracker',
     info:
-      'VeggieTracker is a platform where users can manage their vegetable shopping lists and keep track of the vegetables prices present in the list.',
+      'VeggieTracker is a platform where users can manage their vegetable shopping lists and keep track of the prices of the vegetables present in the list.',
     infoLine2: '',
     infoLine3: '',
     info2:
