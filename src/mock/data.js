@@ -18,12 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `Software engineer who loves to build products, solve problems and add business value
+  paragraphOne: `A software engineer who loves to build products, solve problems, and add business value
      by writing applications that are useful to people.`,
   paragraphTwo: `Built front end single page applications using React and back end for it using RESTful APIs with 
   frameworks such as Django, Nodejs & Spring Boot alongside database technologies such as MySQL, PostgreSQL, SQLite & MongoDB.
   Strong engineering professional with a Bachelor of Engineering focused in CSE from St. Francis Institute Of Technology, Mumbai University.`,
-  paragraphThree: 'Looking for work opportunities, I can work on any given popular tech stack.',
+  paragraphThree: 'Looking for job opportunities, I can work on any given popular tech stack.',
   resume: 'https://drive.google.com/file/d/1Trp7nVWaC5cit6Wt6hsUHJu5ahowalcd/view?usp=sharing', // if no resume, the button will not show up
 };
 
