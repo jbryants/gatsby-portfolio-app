@@ -20,11 +20,9 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: `A software engineer who loves to build products, solve problems, and add business value
      by writing applications that are useful to people.`,
-  paragraphTwo: `Built front end single page applications using React and back end for it using RESTful APIs with 
-  frameworks such as Django, Nodejs & Spring Boot alongside database technologies such as MySQL, PostgreSQL, SQLite & MongoDB.
-  Strong engineering professional with a Bachelor of Engineering focused in CSE from St. Francis Institute Of Technology, Mumbai University.`,
-  paragraphThree: 'Looking for job opportunities, I can work on any given popular tech stack.',
-  resume: 'https://drive.google.com/file/d/1Trp7nVWaC5cit6Wt6hsUHJu5ahowalcd/view?usp=sharing', // if no resume, the button will not show up
+  paragraphTwo: `Built front end single page applications using React and back end for it using RESTful APIs with frameworks such as Spring Boot, Node.js & Django alongside database technologies such as MySQL, PostgreSQL, SQLite & MongoDB. Strong engineering professional with a Bachelor of Engineering focused in CSE from St. Francis Institute Of Technology, Mumbai University.`,
+  paragraphThree: 'Actively looking for job opportunities.',
+  resume: 'https://drive.google.com/file/d/1Tm4RvU9R-tQPt4OncTd3lnE1NCuGR7AJ/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -41,7 +39,7 @@ export const projectsData = [
       'React | Redux | React Router | Material-UI | Redux Form | Lodash | Axios | Django | Django REST framework | PostgreSQL',
     url: '',
     videoUrl: '',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/jbryants/VeggieTracker-Client', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
